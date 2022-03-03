@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './style.css';
+import Nav from './components/nav.js'
+import Entry from './components/entry.js';
+import data from './data.js'
 
-function App() {
+export default function App() {
+  const entries = data.map(entry => {
+    return (<Entry
+              key={entry.id}
+              {...entry}
+            />
+            )
+    })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+      <Nav />
+      <section className='entries flex col ai'>
+        {entries}
+      </section>
     </div>
-  );
+  )
 }
-
-export default App;

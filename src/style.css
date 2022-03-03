@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Assistant', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+div {
+  font-family: 'Assistant', sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav {
+  margin: 0;
+  background-color: darkturquoise;
+  color: #fff;
+  font-family: 'Assistant', sans-serif;
+  padding: 5px 10px;
+}
+.icon {
+  padding: 0px 5px;
+}
+
+entry {
+  font-family: 'Assistant', sans-serif;
+  height: 250px;
+  width: 600px;
+  padding: 30px 0px;
+  border-radius: 10px;
+}
+.entry--img {
+  width: 168px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.entry--text {
+  margin-left: 20px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.entry--location {
+  align-items: center;
+  gap: 5px;
+}
+.entry--country {
+  font-variant-caps: all-small-caps;
+}
+.entry--dates {
+  font-weight: bold;
+}
+
+.entry--title {
+  margin: 0px 0px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+.jc {
+  justify-content: center;
+}
+.ac {
+  align-content: center;
+}
+.ai {
+  align-items: center;
+}
