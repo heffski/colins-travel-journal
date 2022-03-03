@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+#Colin's Travel Journal Project
+
+This project started as tutorial fulfillment on scrimba and I decided to use my local machine and init to github for the purpose of extending my github repo knowledge.
+
+# React Standard READ.ME Stuff
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
