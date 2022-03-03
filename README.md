@@ -1,4 +1,4 @@
-#Colin's Travel Journal Project
+# Colin's Travel Journal Project
 
 This project started as tutorial fulfillment on scrimba and I decided to use my local machine and init to github for the purpose of extending my github repo knowledge.
 
