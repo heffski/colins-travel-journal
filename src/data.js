@@ -26,7 +26,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/QrPQhszEhEzZRRyS9",
         startDate: "24 May, 2017",
         endDate: "30 May, 2017",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+        description: "Skogafoss is an incredible waterfall you can actually walk right up to on the south eastern coast of iceland. It nestles into the cliffsides of iceland in a very rough way that only iceland could produce. This picture is actually from a waterfall on the northern side of the island, that was equally majestic.",
         locationImg: "skogafoss-pic.jpg"
     },
 

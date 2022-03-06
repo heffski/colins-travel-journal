@@ -12,6 +12,7 @@ export default function Entry (props) {
                 </div>
                 <div className="entry--text flex col">
                     <div className="entry--location flex row ac">
+                        <img src="./images/map-marker.png"></img>
                         <p className="entry--country">{props.location}</p>
                             <a href={props.googleMapsUrl}>View on Google Maps</a>
                         </div>
@@ -26,6 +27,7 @@ export default function Entry (props) {
                      <p>{props.description}</p>
                 </div>
             </entry>
+            <div className="divider"></div>
         </>
     )
 }
